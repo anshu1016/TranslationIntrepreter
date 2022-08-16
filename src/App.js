@@ -14,10 +14,10 @@ const alphabetDictionary = {
   J: "Jam",
   K: "Kite",
   L: "Lamb",
-  M: "Man",
+  M: "Men",
   N: "Net",
   O: "Onion",
-  P: "Pen",
+  P: "Pan",
   Q: "Queen",
   R: "Ring",
   S: "Star",
@@ -52,7 +52,7 @@ export default function App() {
       <input
         className="inputField"
         onChange={alphaChangeHandler}
-        placeholder="Enter your text here.."
+        placeholder="Enter your text here."
       />
 
       <p> {showCharacter}</p>
